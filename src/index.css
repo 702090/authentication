@@ -45,13 +45,13 @@ button {
 
 .container {
   box-shadow: 0 1px 6px #ccc;
-  border-radius: 6px;
+  border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 400px;
-  padding: 22px;
+  padding: 20px;
 }
 
 .container > p {
@@ -60,7 +60,7 @@ button {
 }
 
 .form {
-  width: 100%;
+  width: 90%;
 }
 
 .form > h2 {
@@ -80,7 +80,7 @@ button {
 
 .error {
   background-color: tomato;
-  color: white;
+  color: rgb(223, 206, 206);
   border-radius: 6px;
   padding: 6px 12px;
   font-weight: bold;
